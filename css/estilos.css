@@ -1,8 +1,14 @@
 body {
-  background-color: #ffbf00;
-  color: #202b35;
+  background-color: #e6ac00ec;
+  color: #144e85;
   font-family: Arial, sans-serif;
-  margin: 24px;
+  margin: 30px;
 }
-h1 { color: #215a89; }
-a { color: #174f78; }
+
+h1 {
+  color: #202f3d;
+}
+
+a {
+  color: #013961;
+}
