@@ -1,5 +1,5 @@
 body {
-  background-color: #e6ac00ec;
+  background-color: #ffffff;
   color: #144e85;
   font-family: Arial, sans-serif;
   margin: 30px;
@@ -11,4 +11,55 @@ h1 {
 
 a {
   color: #013961;
+}
+.cartaoheader {
+  background-color: #f5e6c5;
+  padding: 20px;
+  border: 0px solid #215a89;
+  margin-bottom: 16px;
+  border-radius: 12px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+.cartao1 {
+  background-color: #f5e6c5;
+  padding: 20px;
+  border: 0px solid #215a89;
+  margin-bottom: 16px;
+  border-radius: 12px;
+}
+.cartao2 {
+  background-color: #bbd6f0;
+  padding: 20px;
+  border: 0px solid #215a89;
+  margin-bottom: 16px;
+  border-radius: 12px;
+}
+.cartao3 {
+  background-color: #889e90;
+  padding: 20px;
+  border: 0px solid #215a89;
+  margin-bottom: 16px;
+  border-radius: 12px;
 }
