@@ -3,15 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>galeria</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Galeria do club</title>
 </head>
 <body>
-    <audio controls preload="metadata">
-        <source src="../media/sinal.mp3" type="audio/mpeg">
-        O teu navegador não suporta áudio.
-    </audio>
+    <header>
+        <h1>Galeria do club</h1>
+        <p>Onde podes ver os nossos videos</p>
+    </header>
 
-    <video controls width="640" preload="metadata"
-    poster="imagens"
+    <main>
+        <h1>O nosso vídeo</h1>
+        <video controls width="640" preload="metadata"
+            poster="../imagens/capa-video.png">
+            <source src="../media/oficina.mp4" type="video/mp4">
+            O teu navegador não suporta video
+        </video><br>
+        
+        <h1>O nosso audio</h1>
+        <audio controls preload="metadata">
+            <source src="../media/sinal.mp3" type="audio/mpeg">
+            O teu navegador não suporta áudio.
+        </audio>
+    </main>
+
+    <section>
+    </section>
+
+    <section>
+        <nav>
+            <ul>
+               <li><a href="../index.html">Início</a></li>
+               <li><a href="atividades.html">Atividades</a></li>
+               <li><a href="incricao.html">Inscrição</a></li>
+            </ul>
+         </nav>
+    </section>
+
+    <footer>
+        <p>Clube de Tecnologia · Projeto escolar de CPW</p>
+    </footer>
 </body>
 </html>
