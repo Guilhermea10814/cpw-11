@@ -19,7 +19,8 @@ a {
   margin-bottom: 16px;
   border-radius: 12px;
 }
-ul {
+
+.ulnav ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -27,11 +28,11 @@ ul {
   background-color: #333333;
 }
 
-ul li {
+.ulnav ul li {
   float: left;
 }
 
-ul li a {
+.ulnav ul li a {
   display: block;
   color: white;
   text-align: center;
@@ -39,8 +40,8 @@ ul li a {
   text-decoration: none;
 }
 
-ul li a:hover {
-  background-color: #111111;
+.ulnav ul li a:hover {
+  background-color: #3e3d3d;
 }
 .cartao1 {
   background-color: #f5e6c5;
