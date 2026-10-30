@@ -6,16 +6,16 @@ body {
 }
 
 h1 {
-  color: #202f3d;
+  color: #ffffff;
 }
 
 a {
   color: #013961;
 }
 .cartaoheader {
-  background-color: #f5e6c5;
+  background-color: #000000;
   padding: 20px;
-  border: 0px solid #215a89;
+  border: 0px solid #ffffff;
   margin-bottom: 16px;
   border-radius: 12px;
 }
@@ -43,6 +43,11 @@ a {
 .ulnav ul li a:hover {
   background-color: #666464;
 }
+#figurainicial {
+  margin-left: 0px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
 
 .lista-atividades {
   display: flex;
@@ -67,4 +72,8 @@ a {
   border: 0px solid #215a89;
   flex: 1 1 220px;
 
+}
+
+figure{
+  margin-left: 0px;
 }
