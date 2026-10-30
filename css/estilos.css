@@ -41,26 +41,30 @@ a {
 }
 
 .ulnav ul li a:hover {
-  background-color: #3e3d3d;
+  background-color: #666464;
 }
+
+.lista-atividades {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
 .cartao1 {
   background-color: #f5e6c5;
-  padding: 20px;
   border: 0px solid #215a89;
-  margin-bottom: 16px;
-  border-radius: 12px;
+  flex: 1 1 220px;
+
 }
 .cartao2 {
   background-color: #bbd6f0;
-  padding: 20px;
   border: 0px solid #215a89;
-  margin-bottom: 16px;
-  border-radius: 12px;
+  flex: 1 1 220px;
+
 }
 .cartao3 {
   background-color: #889e90;
-  padding: 20px;
   border: 0px solid #215a89;
-  margin-bottom: 16px;
-  border-radius: 12px;
+  flex: 1 1 220px;
+
 }
