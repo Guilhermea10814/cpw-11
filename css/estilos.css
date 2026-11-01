@@ -1,18 +1,17 @@
 body {
   background-color: #ffffff;
-  color: #144e85;
+  color: #000000;
   font-family: Arial, sans-serif;
   margin: 30px;
 }
 
-h1 {
-  color: #ffffff;
-}
+
 
 a {
-  color: #013961;
+  color: #000000;
 }
 .cartaoheader {
+  color: #ffffff;
   background-color: #000000;
   padding: 20px;
   border: 0px solid #ffffff;
@@ -25,7 +24,7 @@ a {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #1c1b1b;
 }
 
 .ulnav ul li {
@@ -34,21 +33,42 @@ a {
 
 .ulnav ul li a {
   display: block;
-  color: white;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 .ulnav ul li a:hover {
-  background-color: #666464;
+  background-color: #3b3b3b;
 }
+
 #figurainicial {
   margin-left: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 2px;
+  border-radius: 12px;
+}
+figure{
+  margin-left: 0px;
+}
+#figurainicial2 {
+  margin-top: -1000px;
+  margin-left: 700px;
+  margin-bottom: 2px;
   border-radius: 12px;
 }
 
+.introducao {
+  color: #000000;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.introducao-texto {
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 150px;
+}
 .lista-atividades {
   display: flex;
   gap: 10px;
@@ -74,6 +94,3 @@ a {
 
 }
 
-figure{
-  margin-left: 0px;
-}
